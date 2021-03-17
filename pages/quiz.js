@@ -37,9 +37,10 @@ export default function Home() {
       <QuizContainer>
         <Widget>
           <Widget.Header>
-          <h1>QUIZ - Vanilla JS</h1>
+              <span>1/10</span>
           </Widget.Header>
           <Widget.Content> 
+              <h1>01:O que é escopo?</h1>
               <p>Testes seus conhecimentos aqui.</p>
           </Widget.Content>
         </Widget>
