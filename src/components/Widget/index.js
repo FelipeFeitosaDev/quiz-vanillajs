@@ -36,7 +36,7 @@ Widget.Header = styled.header`
     display: flex;
     justify-content: flex-start; */
     align-items: center;
-    padding: 18px 32px;
+    padding: 18px 32px 6px 30px;
     background-color: ${({ theme }) => theme.colors.contrastText};
   
   *{
@@ -45,7 +45,7 @@ Widget.Header = styled.header`
 `
 
 Widget.Content = styled.div`
-  padding: 6px 32px 32px 32px;
+  padding: 18px 32px 32px 32px;
   & > *:first-child{
     margin-top: 0;
   }

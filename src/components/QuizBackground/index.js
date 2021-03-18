@@ -6,12 +6,16 @@ font-family: 'JetBrains Mono', monospace;
   width: 100%;
   background-size: cover;
   background-position: center;
-  // background-image: url("../quiz-vanillaJs_layout2_vector.svg");
+  background-image: url(${({ backgroundImage }) => backgroundImage});
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-position-y: 30%;
   background-color: ${({ theme }) => theme.colors.mainBg};
   flex: 1;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 1005px) {
     background-image: none;
-    &:after {
+    /* &:after {
       content: "";
       background-size: cover;
     background-position: center;
@@ -30,7 +34,7 @@ font-family: 'JetBrains Mono', monospace;
     *:first-child {
       position: relative;
       z-index: 10;
-    }
+    } */
   }
 `;
 

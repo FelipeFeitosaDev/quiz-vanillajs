@@ -4,6 +4,7 @@ import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import VanillaLogo from '../src/components/VanillaLogo';
 
 
 const Title = styled.h1`
@@ -24,7 +25,9 @@ const QuizContainer = styled.div`
   max-width: 350px;
   padding-top: 45px;
   margin: auto 10%;
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 1005px){
+    width: 100%;
+    max-width: 350px;
     margin: auto; 
     padding: 15px;
   }
@@ -35,6 +38,7 @@ export default function Home() {
   return(
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
+      <VanillaLogo />
         <Widget>
           <Widget.Header>
           <h1>QUIZ - Vanilla JS</h1>
