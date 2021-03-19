@@ -18,7 +18,7 @@ const VanillaStyle = styled.div`
 export default function VanillaLogo(){
     return(
         <VanillaStyle>
-            <img src="https://raw.githubusercontent.com/FelipeFeitosaDev/vanillajavascript-quiz/852d1fdeb7c80231b229e8a7e418e3def912d76a/quiz-vanillaJs_layout2_vector.svg" alt="logo Vanilla" />    
+            <img src="" alt="logo Vanilla" />    
         </VanillaStyle>
     )
 }
