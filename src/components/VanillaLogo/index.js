@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import db from '../../../db.json';
 
 
 
@@ -18,7 +19,7 @@ const VanillaStyle = styled.div`
 export default function VanillaLogo(){
     return(
         <VanillaStyle>
-            <img src="" alt="logo Vanilla" />    
+            <img src={db.bg} alt="logo Vanilla" />    
         </VanillaStyle>
     )
 }
