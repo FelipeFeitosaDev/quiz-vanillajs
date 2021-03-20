@@ -17,7 +17,7 @@ function IndexPage() {
 <meta property="og:url" content="https://quiz-vanillajs-felipefeitosadev.vercel.app/" />
 <meta property="og:title" content="QUIZ - Vanilla JS" />
 <meta property="og:description" content="" />
-<meta property="og:image" content={db.thumb} />
+<meta property="og:image" content="https://raw.githubusercontent.com/FelipeFeitosaDev/quiz-vanillajs/main/bg_thumb.jpg" />
 
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://quiz-vanillajs-felipefeitosadev.vercel.app/" />
