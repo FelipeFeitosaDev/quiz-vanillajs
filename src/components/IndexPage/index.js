@@ -17,13 +17,13 @@ function IndexPage() {
 <meta property="og:url" content="https://quiz-vanillajs-felipefeitosadev.vercel.app/" />
 <meta property="og:title" content="QUIZ - Vanilla JS" />
 <meta property="og:description" content="" />
-<meta property="og:image" content={db.bg} />
+<meta property="og:image" content={db.thumb} />
 
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://quiz-vanillajs-felipefeitosadev.vercel.app/" />
 <meta property="twitter:title" content="QUIZ - Vanilla JS" />
 <meta property="twitter:description" content="" />
-<meta property="twitter:image" content={db.bg} />
+<meta property="twitter:image" content={db.thumb} />
       </Head>
       
   )
