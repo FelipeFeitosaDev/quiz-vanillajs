@@ -1,6 +1,6 @@
 {
     "bg": "https://raw.githubusercontent.com/FelipeFeitosaDev/quiz-vanillajs/ea7dbab01ab270d93ad034bd8ad8a76e297bc6f1/quiz-vanillaJs_layout2_vector.svg",
-    "thumb":"",
+    "thumb":"https://raw.githubusercontent.com/FelipeFeitosaDev/quiz-vanillajs/main/bg_thumb.jpg",
     "title": "Quiz do Canal DevSoutinho",
     "description": "Será que você acompanha mesmo o canal?",
     "questions": [
