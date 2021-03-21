@@ -1,11 +1,10 @@
-import styled from 'styled-components'
-import db from '../../../db.json'
+import styled from 'styled-components';
 
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
   border: none;
-  background-color: ${({theme})=> theme.colors.contrastText };
+  background-color: ${({ theme }) => theme.colors.contrastText};
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 4px 5px 10px rgba(50, 50, 50, 0.20);
@@ -22,27 +21,27 @@ const Widget = styled.div`
     font-weight: 400;
     line-height: 1.5;
   }
-  span{
+ 
+`;
+Widget.Header = styled.header`
+   
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+    padding: 18px 32px 6px 30px;
+    background-color: ${({ theme }) => theme.colors.contrastText};
+    
+    p{
+    text-align: right; 
     font-size: 14px;
       font-weight: 200;
       color: gray;
-      text-align: right;
   }
-`
-;
-
-Widget.Header = styled.header`
-    /* padding: 24px 32px 32px 32px;
-    display: flex;
-    justify-content: flex-start; */
-    align-items: center;
-    padding: 18px 32px 6px 30px;
-    background-color: ${({ theme }) => theme.colors.contrastText};
   
   *{
     margin: 0;
   }
-`
+`;
 
 Widget.Content = styled.div`
   padding: 18px 32px 32px 32px;
@@ -56,6 +55,6 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
-`
+`;
 
 export default Widget;
