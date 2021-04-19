@@ -13,15 +13,15 @@ font-family: 'JetBrains Mono', monospace;
   background-position-y: 30%;
   background-color: ${({ theme }) => theme.colors.mainBg};
   flex: 1;
-  @media screen and (max-width: 1005px) {
+  @media screen and (max-width: 1000px) {
     background-image: none;
-    /* &:after {
+    &:after {
       content: "";
       background-size: cover;
     background-position: center;
-      background-image:
+      /* background-image:
         linear-gradient(transparent, ${({ theme }) => theme.colors.mainBg}),
-        url(${({ backgroundImage }) => backgroundImage});
+        url(${({ backgroundImage }) => backgroundImage}); */
       display: block;
       width: 100%;
       height: 210px;
@@ -34,7 +34,7 @@ font-family: 'JetBrains Mono', monospace;
     *:first-child {
       position: relative;
       z-index: 10;
-    } */
+    }
   }
 `;
 

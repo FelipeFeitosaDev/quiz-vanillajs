@@ -19,7 +19,7 @@
       {
         "image": "https://media.giphy.com/media/4uVyQiFGLicuI/giphy.gif",
         "title": "É verdade que o canal tem mensagens subliminares com o logo da alura aparecendo?",
-        "description": "Será :O",
+        "description": "Será?! :O",
         "answer": 0,
         "alternatives": [
            "Sim",
@@ -60,8 +60,8 @@
         "secondary": "#0A8DFE",
         "mainBg": "#FDDD02",
         "contrastText": "#FFFFFF",
-        "wrong": "#E64C09",
-        "success": "#09E62C"
+        "wrong": "#FF6517",
+        "success": "#4FFF17"
       },
       "borderRadius": "4px"
     }
